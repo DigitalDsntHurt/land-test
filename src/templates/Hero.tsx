@@ -40,6 +40,21 @@ const Hero = () => (
         }
       />
     </Section>
+
+    <Section yPadding="pt-20 pb-32">
+      <form name="contact" data-netlify="true">
+        <p>
+          <label>
+            Email <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <button className="submit-button" type="submit">
+            Send
+          </button>
+        </p>
+      </form>
+    </Section>
   </Background>
 );
 
